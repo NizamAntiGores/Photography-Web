@@ -34,7 +34,13 @@ header a{
     justify-content: space-between;
     align-items: center;
     margin-right: 60px;
+
    
+}
+.middle-header a:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
 }
 .back-header{
     width: 100px;
@@ -43,6 +49,19 @@ header a{
     justify-content: space-between;
     align-items: center;
 }
+.back-header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 36px;
+    border-radius: 18px;
+    /* background-color: red; */
+}
 .back-header img{
     height: 20px;
+}
+.back-header div:hover{
+    background-color: rgb(217, 204, 196);
+    cursor: pointer;
 }
