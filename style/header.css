@@ -35,13 +35,27 @@ header a{
     align-items: center;
     margin-right: 60px;
 
-   
 }
-.middle-header a:hover{
-    text-decoration: underline;
-    text-underline-offset: 5px;
-    text-decoration-thickness: 2px;
+.middle-header a {
+    text-decoration: none;
+    position: relative;
 }
+
+.middle-header a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: currentColor;
+    transition: width 0.15s ease-in-out;
+}
+
+.middle-header a:hover::after {
+    width: 100%;
+}
+
 .back-header{
     width: 100px;
     margin-right: 100px;
