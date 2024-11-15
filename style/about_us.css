@@ -1,0 +1,65 @@
+
+    body {
+        background-color:  rgb(211, 198, 189);
+        margin-top: 10px;
+        padding: 0;
+    }
+    .content {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+    }
+    .content .images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .content .images img {
+        width: 235px; /* Ukuran gambar lebih besar */
+        height: 235px; /* Ukuran gambar lebih besar */
+        border-radius: 10px;
+        border: 3px solid #5a3d3d; /* Menambahkan border */
+        object-fit: cover; /* Mengatur cara gambar ditampilkan */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Menambahkan shadow */
+        transition: transform 0.2s; /* Efek transisi */
+    }
+    .content .images img:hover {
+        transform: scale(1.05); /* Efek zoom saat hover */
+    }
+    .content .text {
+        max-width: 700px; /* Memperpanjang lebar elemen teks */
+        margin-left: 5px; /* Mengurangi margin agar lebih dekat ke gambar */
+    }
+    .content .text h2 {
+        font-size: 24px;
+        color: #5a3d3d;
+    }
+    .content .text p {
+        font-size: 18px;
+        color: #000;
+        line-height: 1.5;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 40px; /* Menambah padding untuk footer */
+        background-color: #d1d1d1;
+        margin-top: 40px; /* Menambahkan margin untuk mengatur posisi footer */
+    }
+    .footer .item {
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+    .footer .item i {
+        font-size: 32px;
+        color: #5a3d31;
+        margin-right: 15px;
+    }
+    .footer .item p {
+        margin: 0;
+        font-size: 18px;
+        color: #5a3d31;
+    }
+
