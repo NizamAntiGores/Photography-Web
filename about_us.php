@@ -23,7 +23,7 @@
                     <a href="index.php">Home</a>
                 </div>
                 <div>
-                    <a href="galeri.php">Gallery</a>
+                    <a href="gallery.php">Gallery</a>
                 </div> 
                 <div>
                     <a href="shop.php">Shop</a>

@@ -1,0 +1,46 @@
+.gallery-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #D3C6BD;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card {
+    background-color: #D9D9D9;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 275px;
+    height: 400px;
+    transition: transform 0.2s;
+}
+.card img {
+    width: 100%;
+    border-radius: 3px;
+}
+.card:hover {
+    transform: scale(1.05); /* Efek zoom saat hover */
+}
+.card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+.card p {
+    font-size: 14px;
+    color: #666;
+}
+.card .location {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: #666;
+    width: 30px;
+}
+.card .location i {
+    margin-right: 5px;
+}

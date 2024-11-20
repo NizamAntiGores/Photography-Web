@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="style/general.css">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/gallery.css">
+
 </head>
 
 <body>
